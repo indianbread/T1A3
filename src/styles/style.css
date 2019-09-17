@@ -1,0 +1,25 @@
+@import "./navbar.css";
+@import "./footer.css";
+@import url('https://fonts.googleapis.com/css?family=Chathura|Manjari&display=swap');
+
+/* header: font-family: 'Manjari', sans-serif; */
+/* body: font-family: 'Chathura', sans-serif; */
+
+:root {
+--dark-teal: rgba(37, 64, 91, 1);
+--light-teal: rgba(111, 146, 155, 1);
+--grey: rgba(119, 119, 114, 1);
+--pink: rgba(245, 156, 139, 1);
+--white: rgba(243, 239, 237, 1);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Chathura', sans-serif;
+  background-color: white;
+}
+
+
+
+
