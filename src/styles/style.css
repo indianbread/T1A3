@@ -1,6 +1,7 @@
 @import "./navbar.css";
 @import "./footer.css";
 @import "./indexcontent.css";
+@import "./card.css";
 
 @import url('https://fonts.googleapis.com/css?family=Chathura|Manjari&display=swap');
 
@@ -25,7 +26,6 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Chathura', sans-serif;
-  font-size: 40px;
   background-image: linear-gradient(to right,rgb(243, 151, 167), rgb(255, 203, 143))
 }
 

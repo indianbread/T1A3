@@ -6,6 +6,7 @@ nav {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 10% 90%;
+  margin-bottom: 5%
   /* background-color: var(--offwhite); */
 }
 
