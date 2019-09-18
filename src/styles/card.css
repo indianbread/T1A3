@@ -65,18 +65,30 @@ justify-content: center;
 .cardlink {
   grid-row: 3/4;
   grid-column: 1/2;
-  text-align: center
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardlinkbutton {
+  background-color: var(--pink);
+  border: solid $b var(--grey);
+  border-radius: 3px;
+  font-family: 'Manjari', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px 10px;
 }
 
 
 .cardlink a {
-  color: var(--light-teal);
+  color: white;
   text-decoration: none;
   font-style: bold;
-  font-size: 35px;
 }
 
-.cardlink a:hover {
-  color: var(--pink);
-  letter-spacing: 2px;
+.cardlinkbutton:hover {
+  background-color: var(--dark-teal)
 }
