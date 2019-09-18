@@ -35,10 +35,14 @@ nav {
   color: var(--pink);
   margin: 5px;
   font-size: 50px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+  padding: 10px;
 }
 
 .navicon:hover {
-  color: var(--light-teal)
+  color: var(--light-teal);
+  transform:rotateY(180deg);
 }
 
 .navlinks a {
