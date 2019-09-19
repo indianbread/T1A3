@@ -9,17 +9,24 @@
   <title>Nhan Dang - Portfolio</title>
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <a href="./index.html"><i class="fas fa-home navicon"></i></a>
-      <div class="navlinks">
-        <div class="navlink"><a href="./about.html">About</a></div>
-        <div class="navlink"><a href="./portfolio.html">Portfolio</a></div>
-        <div class="navlink"><a href="./blog.html">Blog</a></div>
-        <div class="navlink"><a href="./contact.html">Contact</a></div>
-      </div>
+    <div class="container">
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="./index.html"><li>Home</li></a>
+              <a href="./about.html"><li>About</li></a>
+              <a href="./portfolio.html"><li>Portfolio</li></a>
+           <a href="./blog.html"><li>Blog</li></a>
+              <a href="./contact.html"><li>Contact</li></a>          
+            </ul>
+          </div>
     </nav>
     <!-- content goes here -->
+   
     <div class="cards">
       <div class="card">
         <div class="cardpic"><i class="far fa-file-word porticon"></i></div>
@@ -35,7 +42,7 @@
       </div>
     <div class="card">
         <div class="cardpic">
-          <img src="./assetts/homescreen.png" alt="Terminal App Home Screen">
+          <img src="./assetts/homescreen.png" alt="Terminal App Home Screen" class="cardpic">
         </div>
         <div class="cardtext">
         <h4>Terminal Application: AF-Helper</h4>
@@ -71,6 +78,7 @@
       <i class="fab fa-linkedin footericon"></i></a>
     </div>
   </footer>
+</div>
 </div>
 </body>
 </html>

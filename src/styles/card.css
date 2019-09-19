@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -64,12 +64,10 @@ justify-content: center;
 .cardlink {
   grid-row: 3/4;
   grid-column: 1/2;
-  height: 100%;
-  width: 100%;
-  text-align: center;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  margin: 5px;
 }
 
 .cardlinkbutton {
@@ -78,7 +76,7 @@ justify-content: center;
   border-radius: 3px;
   font-family: 'Manjari', sans-serif;
   font-size: 1.1em;
-  text-align: center;
+  /* text-align: center; */
   margin: 5px;
   padding: 5px 10px;
 }
@@ -93,3 +91,23 @@ justify-content: center;
 .cardlinkbutton:hover {
   background-color: var(--dark-teal)
 }
+
+@media only screen and (max-width: 400px) {
+
+.cards {  
+  font-size: 12px;
+}
+.card {
+  width: 90vw;
+  height: 350px;
+}
+.cardtext h4 {
+  font-size: 1.3px;
+}
+
+.porticon {
+  font-size: 6em;
+}
+
+}
+

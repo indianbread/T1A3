@@ -10,14 +10,20 @@
 </head>
 <body>
   <div class="container">
-    <nav>
-      <a href="./index.html"><i class="fas fa-home navicon"></i></a>
-      <div class="navlinks">
-        <div class="navlink"><a href="./about.html">About</a></div>
-        <div class="navlink"><a href="./portfolio.html">Portfolio</a></div>
-        <div class="navlink"><a href="./blog.html">Blog</a></div>
-        <div class="navlink"><a href="./contact.html">Contact</a></div>
-      </div>
+      <nav role="navigation">
+          <div id="menuToggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="./index.html"><li>Home</li></a>
+                <a href="./about.html"><li>About</li></a>
+                <a href="./portfolio.html"><li>Portfolio</li></a>
+             <a href="./blog.html"><li>Blog</li></a>
+                <a href="./contact.html"><li>Contact</li></a>          
+              </ul>
+            </div>
     </nav>
     <!-- content goes here -->
     <div class="indexcontainer" id="aboutcontainer">
