@@ -30,7 +30,7 @@ body {
   grid-template-columns: 5% 90% 5%;
   align-items: center;
   justify-content: center;
-  font-family: 'Chathura', sans-serif;
+  font-family: 'Chathura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
   background-image: linear-gradient(to right,rgb(243, 151, 167), rgb(255, 203, 143))
 }
 
@@ -46,20 +46,36 @@ body {
 }
 
 h1 {
-  font-family: 'Manjari', sans-serif;
-  /* font-size: 50px; */
+  font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
+  font-size: 2em;
   font-style: bold;
   color: var(--dark-teal)
 }
 
 h2 {
-  font-family: 'Manjari', sans-serif;
-  font-size: 35px;
-  color: var(--dark-teal)
+  font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
+  font-size: 1.3em;
+  color: var(--dark-teal);
+  font-weight: bold;
 }
 
 .date {
   color: var(--light-teal)
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+  
+  display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+  }
+  .container {
+    width: 100vw;
+    border-radius: 0%;
+  }
 }
 
 
