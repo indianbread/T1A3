@@ -1,0 +1,94 @@
+@import "./indexcontent.css";
+
+.contactwrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactform {
+  width: 50%;
+  height: 40%;
+  background-color:#c6d4d7;
+  display: grid;
+  grid-template-rows: 0.1fr 0.9fr;
+  grid-template-columns: 1fr;
+  box-shadow: 1px 1px 1px var(--grey);
+  border-radius: 2%;
+}
+
+.title {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: center;
+}
+
+.formcontent {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  color: var(--grey);
+  padding: 1em;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: 'Chathura', sans-serif;
+  padding: 2px;
+  color: black;
+  border-bottom: 1px solid white;
+  margin-left: 1em;
+  float: right;
+  font-size: 1.1em;
+  width: 70%;
+}
+
+label {
+color: var(--dark-teal);
+font-weight: bold;
+font-size: 1.2em;
+text-align: left;
+resize: none;
+}
+
+textarea {
+  background-color: transparent;
+  float: left;
+  width: 90%;
+  margin-top: 1em;
+  border: 1px solid white;
+  font-family: 'Chathura', sans-serif;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+#submitbutton {
+  background-color: var(--dark-teal);
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px var(--grey);
+  border: none;
+  border-radius: 3px;
+  font-family: 'Manjari', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1em 0px;
+  padding: 5px 1em;
+  float: right;
+  width: auto;
+}
+
+
+#submitbutton a {
+  color: white;
+  text-decoration: none;
+  font-style: bold;
+}
+
+#submitbutton:hover {
+  background-color: var(--grey)
+}
+
+

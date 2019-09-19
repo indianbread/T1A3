@@ -13,15 +13,6 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  overflow: auto;
-}
-
-.sidebarcontainer {
-  grid-row: 1/2;
-  grid-column: 2/3;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
 }
 
 .blogpost{
@@ -32,9 +23,7 @@
   display: grid;
   grid-template-rows: 2em 2em auto auto;
   grid-template-columns: 1fr;
-  font-size: 30px;
   color: var(--grey);
-  line-height: 25px;
   padding: 20px;
   }
 
