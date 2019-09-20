@@ -23,7 +23,7 @@ footer {
   padding-right: 10px;
 }
 
-.footericon a:hover {
+.footericon:hover {
   color: var(--light-teal);
 }
 
