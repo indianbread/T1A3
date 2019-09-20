@@ -10,20 +10,20 @@
 .card {
 width: 300px;
 height: 500px;
-box-shadow: 2px 3px var(--offwhite);
-border: 1px solid var(--pink);
+box-shadow: 2px 3px var(--dark-teal);
+border: 1px solid var(--light-teal);
 margin: 3em;
 border-radius: 3%;
 display: grid;
 grid-template-rows: 0.4fr 0.5fr 0.1fr;
 grid-template-columns: 1fr;
-color: var(--grey);
+color: var(--white);
 }
 
 
 .card:hover{
   transform: scale(1.1);
-  border: 2px solid var(--light-teal);
+  border: 2px solid var(--dark-teal);
 }
 
 .cardpic {
@@ -55,7 +55,7 @@ justify-content: center;
 }
 
 .cardtext h4 {
-  color: var(--dark-teal);
+  color: var(--white);
   font-size: 2em;
   text-align: center;
   margin: 5px;
@@ -71,7 +71,7 @@ justify-content: center;
 }
 
 .cardlinkbutton {
-  background-color: var(--pink);
+  background-color: var(--light-teal);
   /* border: solid $b var(--grey); */
   border-radius: 3px;
   font-family: 'Manjari', sans-serif;
@@ -89,7 +89,7 @@ justify-content: center;
 }
 
 .cardlinkbutton:hover {
-  background-color: var(--dark-teal)
+  background-color: var(--aqua)
 }
 
 @media only screen and (max-width: 400px) {

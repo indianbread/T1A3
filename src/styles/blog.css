@@ -20,12 +20,12 @@
 .blogpost{
   width: 90%;
   height: auto;
-  box-shadow: 2px 3px var(--offwhite);
-  border: 1px solid var(--pink);
+  box-shadow: 2px 3px var(--dark-teal);
+  border: 1px solid var(--light-teal);
   display: grid;
   grid-template-rows: auto auto auto auto 2em;
   grid-template-columns: 1fr;
-  color: var(--grey);
+  color: var(--white);
   margin-bottom: 1em;
   }
 
@@ -36,7 +36,7 @@
     font-family: 'Manjari', sans-serif;
     font-size: 2em;
     font-style: bold;
-    color: var(--dark-teal);
+    color: var(--aqua);
     padding: 5px;
   }
 
@@ -78,7 +78,7 @@
 
   .blogreturn a {
     font-size: 1.5em;
-    color: var(--pink);
+    color: var(--aqua);
     text-decoration: none;
     padding: 1em;
   }

@@ -8,14 +8,14 @@ nav {
 }
 
 a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--dark-teal)
+  color: var(--aqua)
 }
 
 /* Hamburger */
@@ -58,7 +58,7 @@ a:hover {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: var(--pink);
+  background: var(--aqua);
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -81,7 +81,7 @@ a:hover {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: var(--pink);
+  background: var(--aqua);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -103,7 +103,7 @@ a:hover {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: rgba(111, 146, 155, 1);
+  background: var(--dark-teal);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   

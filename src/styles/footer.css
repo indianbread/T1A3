@@ -16,16 +16,16 @@ footer {
 
 .footericon {
   font-size: 3em;
-  color: var(--pink);
+  color: var(--light-teal);
   padding-right: 10px;
 }
 
-.footericon a:hover {
-  color: var(--light-teal);
+.footericon:hover {
+  color: var(--aqua);
 }
 
 .copyright {
-  color: var(--pink);
+  color: var(--light-teal);
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -42,7 +42,6 @@ footer {
   }
   .footericon {
     font-size: 1.5em;
-    color: var(--pink);
     padding: 5px;
   }
 

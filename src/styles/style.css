@@ -13,12 +13,19 @@
 /* body: font-family: 'Chathura', sans-serif; */
 
 :root {
---dark-teal: rgba(37, 64, 91, 1);
+/* --dark-teal: rgba(37, 64, 91, 1);
 --light-teal: rgba(111, 146, 155, 1);
 --grey: rgba(119, 119, 114, 1);
 --pink: rgba(245, 156, 139, 1);
 --white: rgba(243, 239, 237, 1);
---offwhite: rgba(243,239,232,1);
+--offwhite: rgba(243,239,232,1); */
+/* pallette 2 */
+
+--black: rgba(0, 0, 0, 1);
+--dark-teal: rgba(47, 69, 80, 1);
+--light-teal: rgba(88, 111, 124, 1);
+--aqua: rgba(184, 219, 217, 1);
+--white: rgba(244, 244, 249, 1);
 }
 
 body {
@@ -31,7 +38,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Chathura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
-  background-image: linear-gradient(to right,rgb(243, 151, 167), rgb(255, 203, 143))
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .container {
@@ -41,7 +49,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: white;
   border-radius: 1%;
 }
 
@@ -49,13 +56,13 @@ h1 {
   font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
   font-size: 2em;
   font-style: bold;
-  color: var(--dark-teal)
+  color: var(--aqua)
 }
 
 h2 {
   font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
   font-size: 1.3em;
-  color: var(--dark-teal);
+  color: var(--aqua);
   font-weight: bold;
 }
 
@@ -65,16 +72,15 @@ h2 {
 
 @media only screen and (max-width: 500px) {
   body {
-  
-  display: flex;
- flex-direction: column;
- flex-wrap: wrap;
-align-items: center;
-justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
-  .container {
-    width: 100%;
-    border-radius: 0%;
+.container {
+  width: 100%;
+  border-radius: 0%;
   }
 }
 
