@@ -13,12 +13,12 @@
 /* body: font-family: 'Chathura', sans-serif; */
 
 :root {
---dark-teal: rgba(37, 64, 91, 1);
---light-teal: rgba(111, 146, 155, 1);
---grey: rgba(119, 119, 114, 1);
---pink: rgba(245, 156, 139, 1);
---white: rgba(243, 239, 237, 1);
---offwhite: rgba(243,239,232,1);
+  --dark-teal: rgba(37, 64, 91, 1);
+  --light-teal: rgba(111, 146, 155, 1);
+  --grey: rgba(119, 119, 114, 1);
+  --pink: rgba(245, 156, 139, 1);
+  --white: rgba(243, 239, 237, 1);
+  --offwhite: rgba(243, 239, 232, 1);
 }
 
 body {
@@ -30,14 +30,14 @@ body {
   grid-template-columns: 5% 90% 5%;
   align-items: center;
   justify-content: center;
-  font-family: 'Chathura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
-  background-image: linear-gradient(to right,rgb(243, 151, 167), rgb(255, 203, 143))
+  font-family: 'Chathura', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: linear-gradient(to right, rgb(243, 151, 167), rgb(255, 203, 143))
 }
 
 .container {
   grid-row: 1/2;
   grid-column: 2/3;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -46,14 +46,14 @@ body {
 }
 
 h1 {
-  font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
+  font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2em;
   font-style: bold;
   color: var(--dark-teal)
 }
 
 h2 {
-  font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',sans-serif;
+  font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.3em;
   color: var(--dark-teal);
   font-weight: bold;
@@ -65,18 +65,16 @@ h2 {
 
 @media only screen and (max-width: 500px) {
   body {
-  
-  display: flex;
- flex-direction: column;
- flex-wrap: wrap;
-align-items: center;
-justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
+
   .container {
     width: 100vw;
     border-radius: 0%;
   }
 }
-
-
-

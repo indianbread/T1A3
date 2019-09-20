@@ -1,6 +1,6 @@
 @import "./blog.css";
 
- .sidebarcontainer {
+.sidebarcontainer {
   grid-row: 1/2;
   grid-column: 2/3;
   display: flex;
@@ -8,7 +8,7 @@
   align-items: flex-start;
   width: 100%;
   height: auto;
-} 
+}
 
 .sidebar {
   opacity: 0.7;
