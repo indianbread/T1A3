@@ -45,9 +45,8 @@ nav {
   color: var(--pink);
   font-size: 2.5em;
   text-decoration: none;
-  font-style: bold;
+  font-weight: bold;
   padding: 0px 1em;
-  text-shadow: 2px 2px 2px;
 }
 
 .navlinks a:hover {

@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -87,7 +87,7 @@
 .cardlink a {
   color: white;
   text-decoration: none;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .cardlinkbutton:hover {

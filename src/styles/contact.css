@@ -86,7 +86,7 @@ textarea {
 #submitbutton a {
   color: white;
   text-decoration: none;
-  font-style: bold;
+  font-weight: bold;
 }
 
 #submitbutton:hover {
