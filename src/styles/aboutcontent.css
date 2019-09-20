@@ -22,6 +22,7 @@
 
 }
 
+/* Container for images to give border radius and ensure they do not take up too much room on the screen  */
 .imgcontainer {
   width: auto;
   height: auto;
@@ -37,6 +38,8 @@
 
 
 @media only screen and (max-width: 700px) {
+
+  /* changing grid to flexbox for narrow screens */
   #aboutcontainer {
     display: flex;
     flex-direction: column;

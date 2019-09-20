@@ -1,3 +1,4 @@
+/* container for grid layout for index and about pages  */
 .indexcontainer {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -15,6 +16,7 @@
   justify-content: center;
 }
 
+/* container for image to make sure it doesn't exceed a height of 300px and for width to adjust accordingly to height  */
 .img1container {
   width: auto;
   height: auto;

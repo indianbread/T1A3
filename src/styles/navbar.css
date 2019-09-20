@@ -1,5 +1,6 @@
 /* Desktop */
 
+/* container for navbar contents */
 nav {
   width: 100%;
   height: 10%;
@@ -9,11 +10,11 @@ nav {
   margin-bottom: 2%
 }
 
+/* container for links */
 .navlinks {
   display: flex;
   margin: 3px;
   height: 100%;
-  align-items: center;
   justify-content: center;
 }
 
@@ -25,6 +26,7 @@ nav {
   justify-content: center;
 }
 
+/* #formatting for home icon from fontawesome  */
 .navicon {
   float: left;
   text-align: left;

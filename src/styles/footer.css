@@ -1,3 +1,5 @@
+/* style for footer component  */
+
 footer {
   width: 100%;
   height: auto;
@@ -6,6 +8,7 @@ footer {
   justify-content: space-between;
 }
 
+/* container for the footer icons  */
 .footericons {
   display: flex;
   align-items: center;
@@ -13,6 +16,7 @@ footer {
   padding: 2em;
 }
 
+/* formatting for each icon */
 .footericon {
   font-size: 3em;
   color: var(--pink);
@@ -23,6 +27,7 @@ footer {
   color: var(--light-teal);
 }
 
+/* container for copyright message  */
 .copyright {
   color: var(--pink);
   display: flex;

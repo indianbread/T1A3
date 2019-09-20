@@ -11,6 +11,7 @@
 
 /* header: font-family: 'Manjari', sans-serif; */
 /* body: font-family: 'Chathura', sans-serif; */
+/* master style sheet  */
 
 :root {
   --dark-teal: rgba(37, 64, 91, 1);
@@ -21,6 +22,7 @@
   --offwhite: rgba(243, 239, 232, 1);
 }
 
+/* master container to display the pink background on the sides */
 body {
   width: 100vw;
   margin: 0px;
@@ -34,6 +36,7 @@ body {
   background-image: linear-gradient(to right, rgb(243, 151, 167), rgb(255, 203, 143))
 }
 
+/* content container  */
 .container {
   grid-row: 1/2;
   grid-column: 2/3;
@@ -45,6 +48,7 @@ body {
   border-radius: 1%;
 }
 
+/* header formatting */
 h1 {
   font-family: 'Manjari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 2em;
@@ -59,6 +63,7 @@ h2 {
   font-weight: bold;
 }
 
+/* date formatting */
 .date {
   color: var(--light-teal)
 }

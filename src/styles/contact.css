@@ -8,6 +8,7 @@
   align-items: center;
 }
 
+/* formatting the form and separating form header from contents */
 .contactform {
   width: 60%;
   height: 40%;
@@ -33,6 +34,7 @@
   padding: 1em;
 }
 
+/* formatting the form input areas  */
 input {
   background-color: transparent;
   border: none;
@@ -55,6 +57,7 @@ label {
   resize: none;
 }
 
+/* formatting for message area in form  */
 textarea {
   background-color: transparent;
   float: left;
@@ -66,6 +69,7 @@ textarea {
   padding: 2px;
 }
 
+/* creating a button for the submit action  */
 #submitbutton {
   background-color: var(--dark-teal);
   color: white;

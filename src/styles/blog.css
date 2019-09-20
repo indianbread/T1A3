@@ -5,6 +5,7 @@
   grid-template-rows: 1fr;
 }
 
+/* wrapper for blog page to assign a column for the posts and a separate column for the sidebar with links to posts  */
 .blogcontents {
   grid-row: 1/2;
   grid-column: 1/2;
@@ -15,6 +16,7 @@
   align-items: center;
 }
 
+/* master blogpost container with grid layout for the title,date,image and text  */
 .blogpost {
   width: 90%;
   height: auto;
@@ -46,6 +48,7 @@
 
 }
 
+
 .postimagecontainer {
   grid-row: 3/4;
   grid-column: 1/2;
@@ -55,12 +58,14 @@
   padding: 5px;
 }
 
+/* giving a class to the images to make sure they do not exceed a height of 600px  */
 .postimage {
   width: auto;
   max-width: 100%;
   max-height: 600px;
 }
 
+/* container for blog post text. height will adjust according to the amount of content.  */
 .posttext {
   grid-row: 4/5;
   grid-column: 1/2;
