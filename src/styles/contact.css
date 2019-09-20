@@ -12,7 +12,7 @@
 .contactform {
   width: 60%;
   height: 40%;
-  background-color:#c6d4d7;
+  background-color: #c6d4d7;
   display: grid;
   grid-template-rows: 0.1fr 0.9fr;
   grid-template-columns: 1fr;
@@ -49,11 +49,11 @@ input {
 }
 
 label {
-color: var(--dark-teal);
-font-weight: bold;
-font-size: 1.2em;
-text-align: left;
-resize: none;
+  color: var(--dark-teal);
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: left;
+  resize: none;
 }
 
 textarea {
@@ -87,7 +87,7 @@ textarea {
 #submitbutton a {
   color: white;
   text-decoration: none;
-  font-style: bold;
+  font-weight: bold;
 }
 
 #submitbutton:hover {
@@ -99,26 +99,28 @@ textarea {
     height: 100vh;
     align-items: flex-start;
   }
+
   .contactform {
     width: 80%;
     height: auto;
   }
+
   input {
     margin-left: 5px;
     font-size: 12px;
   }
-  
+
   label {
-  font-size: 13px;
+    font-size: 13px;
   }
-  
+
   textarea {
     font-size: 12px;
     padding: 5px;
   }
-  
+
   #submitbutton {
     font-size: 13px;
     margin: 5px 0px;
-}
+  }
 }

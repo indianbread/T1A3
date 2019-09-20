@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.blogpost{
+.blogpost {
   width: 90%;
   height: auto;
   box-shadow: 2px 3px var(--offwhite);
@@ -27,85 +27,85 @@
   grid-template-columns: 1fr;
   color: var(--grey);
   margin-bottom: 1em;
-  }
+}
 
-  .posttitle {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    width: 100%;
-    font-family: 'Manjari', sans-serif;
-    font-size: 2em;
-    font-style: bold;
-    color: var(--dark-teal);
-    padding: 5px;
-  }
+.posttitle {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  width: 100%;
+  font-family: 'Manjari', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--dark-teal);
+  padding: 5px;
+}
 
-  .postdate {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    color: var(--light-teal);
-    padding: 5px;
-    
-  }
+.postdate {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  color: var(--light-teal);
+  padding: 5px;
 
-  .postimagecontainer{
-    grid-row: 3/4;
-    grid-column: 1/2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-  }
+}
 
-  .postimage{
+.postimagecontainer {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.postimage {
   width: auto;
   max-width: 100%;
   max-height: 600px;
+}
+
+.posttext {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  padding: 1.3em 5px;
+  height: auto;
+}
+
+.blogreturn {
+  grid-row: 5/5;
+  grid-column: 1/2;
+  text-align: right;
+}
+
+.blogreturn a {
+  font-size: 1.5em;
+  color: var(--pink);
+  text-decoration: none;
+  padding: 1em;
+}
+
+.blogreturn a:hover {
+  color: var(--light-teal)
+}
+
+@media only screen and (max-width: 999px) {
+
+  .blogpost {
+    font-size: 12px;
+    margin-bottom: 20px;
   }
 
-  .posttext {
-    grid-row: 4/5;
-    grid-column: 1/2;
-    padding: 1.3em 5px;
-    height: auto;
+  .posttitle {
+    font-size: 1.2em;
   }
 
-  .blogreturn {
-    grid-row: 5/5;
-    grid-column: 1/2;
-    text-align: right;
+  .postimagecontainer {
+    margin: 1em;
   }
 
   .blogreturn a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--pink);
-    text-decoration: none;
-    padding: 1em;
+    text-decoration: none
   }
 
-  .blogreturn a:hover {
-    color: var(--light-teal)
-  }
-
-  @media only screen and (max-width: 999px) {
-
-    .blogpost{
-    font-size: 12px;
-      margin-bottom: 20px;
-      }
-    
-      .posttitle {
-        font-size: 1.2em;
-      }
-    
-      .postimagecontainer{
-        margin: 1em;
-      }
-      .blogreturn a {
-        font-size: 1.2em;
-        color: var(--pink);
-        text-decoration: none
-      }
-
-  }
-  
+}
