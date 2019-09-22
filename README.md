@@ -113,5 +113,6 @@ The website was deployed using Netlify by linking Netlify to the Github reposito
 
 ## Powerpoint Slidedeck ##
 
+[Slidedeck](./ppt/NhanDang_T1A3.pptx)
 
 
